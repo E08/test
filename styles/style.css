@@ -1,0 +1,159 @@
+/*
+Incorpération des fonts
+@font-face{
+    font-family: "fonteSite";
+    src: url(../font/BebasNeue.otf);
+}
+@font-face{
+    font-family: "fonteSiteB";
+    src: url(../font/CaviarDreams.ttf);
+}
+@font-face{
+    font-family: "fonteSiteBI";
+    font-style : italic;
+    src: url(../font/CaviarDreams_Italic.ttf);
+}
+@font-face{
+    font-family: "fonteSiteBB";
+    font-style : bold;
+    src: url(../font/CaviarDreams_Bold.ttf);
+}
+*/
+
+*{
+    font-family: 'Raleway', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/backgroud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-family: inherit;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+/*HEADER*/
+#header{
+    margin: 250px;
+}
+
+h1{
+    font-family: 'Raleway';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: 'Raleway';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110px;
+    margin: 20px;
+}
+
+#titre{
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+#arrow{
+    text-align: center;
+    padding-top: 250px;
+}
+
+/*FOOTER*/
+#footer{
+    padding: 0px 0px;
+}
+
+#regle{
+    font-family: 'Raleway';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#regleP{
+    margin: auto;
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    width: 275px;
+    height: 100px;
+}
+#regleP p{
+    font-family: 'Raleway';
+    font-weight: lighter;
+    text-align: center;
+    color: #000;
+    padding: 15px 15px;
+}
+
+#taille{
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#copyright{
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}
+
+#zoneDeJeu{
+    background: #213;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    margin : auto;
+    width: 500px;
+    height: 500px;
+}
+
+#bouton{
+    
+}
+#boutonPlay{
+    display: inline-block;
+    float: left;
+    padding-right: 75px;
+}
+#boutonPause{
+    display: inline-block;
+    float: left;
+    padding-right: 75px;
+}
+#boutonReset{
+    display: inline-block;
+    float: left;
+}
+
+
+/*
+.vie{
+	width:10px;
+	height:10px;
+	background-color:#95F;
+}
+
+.mort{
+	width:10px;
+	height:10px;
+	background-color:#CCC;
+}*/
